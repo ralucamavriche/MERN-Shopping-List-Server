@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://raluca:parola@cluster0-u9ubm.mongodb.net/test?retryWrites=true&w=majority",
+    "conn":"mongodb+srv://raluca:parola@cluster0-u9ubm.mongodb.net/somename2",
+    "jwtSecret": "sl_myJwtSecret"
+}
