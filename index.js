@@ -2,10 +2,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const config = require('config');
+const cors = require('cors');
 
 
 //Initializam expressul intr o variabila
 const app = express();
+
+app.use(cors());
 
 //Bodyparser Middleware
 app.use(express.json());
