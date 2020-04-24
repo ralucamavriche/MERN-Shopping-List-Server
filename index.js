@@ -26,6 +26,11 @@ mongoose
 .catch(err => console.log(err));
 
 //Use Routes
+app.get('/', (req, res) => {
+     return res.json({
+          msg: "Mern shopping list"
+     });
+})
 app.use('/api/items', require('./routes/api/items'));
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
